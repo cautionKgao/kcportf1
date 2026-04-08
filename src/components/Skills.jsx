@@ -7,12 +7,15 @@ const categories = [
     icon: <TbDatabase style={{ color: '#00d4ff' }} />,
     title: 'Data Engineering & ETL',
     tags: [
-      { label: 'ETL Pipelines', color: 'blue' },
+      { label: 'ETL/ELT', color: 'blue' },
+      { label: 'Data Pipelines', color: 'blue' },
       { label: 'Pentaho', color: 'blue' },
       { label: 'AWS Glue', color: 'orange' },
+      { label: 'AWS S3', color: 'orange' },
       { label: 'AWS Lambda', color: 'orange' },
       { label: 'AWS EMR', color: 'orange' },
       { label: 'Data Modelling', color: 'blue' },
+      { label: 'Data Warehousing', color: 'blue' },
       { label: 'MS SQL', color: 'blue' },
       { label: 'NoSQL', color: 'green' },
     ],
@@ -27,8 +30,7 @@ const categories = [
       { label: 'QlikSense', color: 'green' },
       { label: 'Pandas', color: 'blue' },
       { label: 'NumPy', color: 'blue' },
-      { label: 'Matplotlib', color: 'blue' },
-      { label: 'Statistical Analysis', color: 'purple' },
+      { label: 'Matplotlib', color: 'blue' }
     ],
   },
   {
@@ -43,6 +45,10 @@ const categories = [
       { label: 'QuickSight', color: 'orange' },
       { label: 'EC2', color: 'orange' },
       { label: 'IAM', color: 'orange' },
+      { label: 'VPC', color: 'orange' },
+      { label: 'ECS', color: 'orange' },
+      { label: 'ECR', color: 'orange' },
+      { label: 'Route53', color: 'orange' },
     ],
   },
   {
@@ -67,9 +73,6 @@ const categories = [
       { label: 'Regression Testing', color: 'green' },
       { label: 'Performance Testing', color: 'green' },
       { label: 'Test Case Design', color: 'blue' },
-      { label: 'Selenium WebDriver', color: 'green' },
-      { label: 'Git', color: 'purple' },
-      { label: 'Docker', color: 'blue' },
     ],
   },
   {
@@ -83,6 +86,17 @@ const categories = [
       { label: 'Huawei Network', color: 'pink' },
       { label: 'Cyber Security', color: 'green' },
       { label: 'IBM Cloud', color: 'blue' },
+    ],
+  },
+  {
+    icon: <FiLayers style={{ color: '#00d4ff' }} />,
+    title: 'Tools',
+    tags: [
+      { label: 'Selenium WebDriver', color: 'green' },
+      { label: 'Git', color: 'purple' },
+      { label: 'Docker', color: 'blue' },
+      { label: 'Jupyter Notebook', color: 'orange' },
+      { label: 'Linux (Ubuntu)', color: 'green' },
     ],
   },
 ]
