@@ -4,6 +4,13 @@ import { FiAward, FiBook } from 'react-icons/fi'
 const education = [
   {
     icon: '🎓',
+    degree: "HCMP - Higher Certificate in Management Practice",
+    school: 'Henley Business School',
+    year: '2025 - 2026',
+    detail: 'Focus on management principles and leadership skills for aspiring professionals.',
+  },
+  {
+    icon: '🎓',
     degree: "BSc Honours — Computer Science",
     school: 'University of Limpopo',
     year: '2023',

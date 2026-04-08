@@ -69,7 +69,7 @@ export default function Contact() {
                 <label htmlFor="name">Your Name</label>
                 <input
                   type="text" id="name" name="name"
-                  placeholder="John Doe"
+                  placeholder="Name Surname"
                   value={form.name} onChange={handleChange} required
                 />
               </div>
@@ -77,7 +77,7 @@ export default function Contact() {
                 <label htmlFor="email">Your Email</label>
                 <input
                   type="email" id="email" name="email"
-                  placeholder="john@example.com"
+                  placeholder="name@example.com"
                   value={form.email} onChange={handleChange} required
                 />
               </div>
